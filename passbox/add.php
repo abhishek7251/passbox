@@ -18,7 +18,7 @@ $sucess = 0;
              include "dbconnect.php";
              session_start();
              $name = $_SESSION['username'];
-             $facebook = $_POST['faceboo'];
+             $facebook = $_POST['facebook'];
              $insta = $_POST['instagram'];
              $twit = $_POST['twitter'];
              $email = $_POST['email'];
